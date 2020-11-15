@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sell textbooks and used books</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- header and search -->
+    <header class="header">
+        <!-- start navbar section -->
+        <div class="container ">
+            <div class="navbar navbar-expand-md bg-light navbar-light ">
+
+                <a href="index.html" class="navbar-brand col-md-2">
+                    <img src="img/netclipart.com-smart-clipart-256245.png" alt="logo">
+                </a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navResponcive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-md-10" id="navResponcive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">VENDORS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">TOOLS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">TIPS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">PRO</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+
+                        <li class="nav-item"> <a href="#" class="login">
+                                <i class="fas fa-user-circle"></i>login
+                            </a></li>
+
+                        <li class="nav-item"><a href="#" class="btn btn-custom ">Register</a>
+                    </ul>
+                    </li>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="first-search">
+                <h1 class="title"><strong id="main-text">Buy your textbooks</strong><br> for the best price</h1>
+                <div class="title-search">
+
+
+                    <div class="search--tab-container">
+                        <a href="#" class="btn active   btn-search" id="btn-1" onclick="myFunc('buy')">Buy</a>
+                        <a href="#" class="btn   btn-search" id="btn-2" onclick="myFunc('sell')">Sell</a>
+                        <a href="#" class="btn   btn-search" id="btn-3" onclick="myFunc('rent')">Rent</a>
+
+                    </div>
+                    <div class="search ">
+
+                        <form>
+                            <div class="src">
+                                <input type="text" class="search-form" placeholder="Search for ISBN number...">
+                                <span><i class="fas fa-search"></i></span>
+                            </div>
+                            <input class="search-btn" type="submit" value="Search">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- secound search -->
+    <div class="btn-box">
+        <a href="#" class="btn active  " id="buy-btn" onclick="myFunc('buy')">Buy</a>
+        <a href="#" class="btn " id="sell-btn" onclick="myFunc('sell')">Sell</a>
+        <a href="#" class="btn " id="rent-btn" onclick="myFunc('rent')">Rent</a>
+    </div>
+    <div class="search-box">
+        <input type="text" placeholder="Search for ISBN number...">
+        <span><i class="fas fa-search"></i></span>
+    </div>
+
+    <div class="big-btn">
+        <a href="#" class="btn big-search">Search</a>
+    </div>
+    <!-- services -->
+    <div class="services">
+        <div class="container ">
+            <div class="row my-0 mx-auto py-30 px-0 justify-content-center d-flex">
+                <div class="buy-back col-sm-4">
+                    <div class="row justify-content-center ">
+                        <div class="number">
+                            1
+                        </div>
+                        <div class="text">
+                            <h3>SEARCH</h3>
+                            <h5>30+ buyback vendors</h5>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+                </div>
+
+                <div class="compare col-sm-4">
+                    <div class="row justify-content-center ">
+                        <div class="number">
+                            2
+                        </div>
+                        <div class="text">
+                            <h3>COMPARE</h3>
+                            <h5>prices and seller feedback</h5>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+                </div>
+                <div class="ship col-sm-4">
+                    <div class="row justify-content-center ">
+                        <div class="number">
+                            3
+                        </div>
+                        <div class="text">
+                            <h3>SHIP</h3>
+                            <h5>for FREE and get paid</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="question col-md-5">
+                    <h3>Why use BookScouter?</h3>
+                </div>
+                <div class="answer col-md-7">
+                    <p>BookScouter helps you sell textbooks and used books for the most money by comparing offers from
+                        over
+                        30 book buyback vendors with a single search.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- recently -->
+    <div class="recently">
+        <div class="container">
+            <div class="recent-search">
+                <h3>Recently Searched Books</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="card-1 col-lg">
+                    <div class="row">
+                        <div class="img-1 ">
+                            <img src="img/book.jpg" alt="">
+                        </div>
+                        <div class="col px-0 " style="padding-top: 10px;">
+                            <div class="isbn">
+                                <h5>ISBN: 0982978650</h5>
+                                <div class="border-line w-100"></div>
+                            </div>
+                            <div class="price">
+                                <h5>
+                                    <th>$</th> 39.73
+                                </h5>
+                            </div>
+                            <div class="btns">
+                                <a href="#" class="btn btn-1">sell</a>
+                                <a href="#" class="btn btn-2">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-1 col-lg">
+                    <div class="row">
+                        <div class="img-1 ">
+                            <img src="img/book.jpg" alt="">
+                        </div>
+                        <div class="col px-0 " style="padding-top: 10px;">
+                            <div class="isbn">
+                                <h5>ISBN: 0982978650</h5>
+                                <div class="border-line w-100"></div>
+                            </div>
+                            <div class="price">
+                                <h5>
+                                    <th>$</th> 39.73
+                                </h5>
+                            </div>
+                            <div class="btns">
+                                <a href="#" class="btn btn-1">sell</a>
+                                <a href="#" class="btn btn-2">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-1 col-lg">
+                    <div class="row">
+                        <div class="img-1 ">
+                            <img src="img/book.jpg" alt="">
+                        </div>
+                        <div class="col px-0 " style="padding-top: 10px;">
+                            <div class="isbn">
+                                <h5>ISBN: 0982978650</h5>
+                                <div class="border-line w-100"></div>
+                            </div>
+                            <div class="price">
+                                <h5>
+                                    <th>$</th> 39.73
+                                </h5>
+                            </div>
+                            <div class="btns">
+                                <a href="#" class="btn btn-1">sell</a>
+                                <a href="#" class="btn btn-2">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App -->
+    <div class="app">
+        <div class="row">
+            <div class="content ">
+                <h2>Get Our Mobile Apps</h2>
+                <p>Quickly view vendors, vendor ratings, and buyback prices at any time from the convenience of your
+                    smartphone for free!</p>
+                <a href="#" class="btn btn-app"><i class="fab fa-apple"></i> Download for ios</a>
+                <a href="#" class="btn btn-app"><span class="material-icons">
+                        android
+                    </span> Download for Android</a>
+            </div>
+        </div>
+        <div class="fixed-wrap">
+            <div class="fixed">
+            </div>
+        </div>
+    </div>
+
+    <!-- information -->
+    <div class="informations ">
+        <div class="container">
+            <h2 class="ml-0">$500 Quarterly Book Scholarship</h2>
+            <div class="row">
+
+                <div class="left col-md-6">
+
+                    <p>BookScouter is sponsoring a textbook scholarship! <br> Each quarter we will award a student with
+                        a
+                        $500 <br> scholarship to be used towards purchasing their <br> textbooks.</p>
+
+
+                </div>
+                <div class="right col-md-6">
+                    <h4>Requirements to be Eligible for the Scholarship:</h4>
+                    <ul>
+                        <li>Currently enrolled in an accredited university/college</li>
+                        <li>Complete the full questionnaire</li>
+                        <li>Include a short video (1 minute max) with your name, major, and most expensive textbook you
+                            have had to buy and its price.</li>
+                        <li>If you are awarded the scholarship, you must complete a short interview about yourself and
+                            your academic plans.</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn btn-outline-light apply">Apply</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- recent blog posts -->
+    <div class="container">
+        <div class="recent-posts">
+            <h3>Recent Blog Posts</h3>
+            <div class="card-deck">
+                <div class="card bg-white  recent">
+                    <img class="card-img-top" alt="" src="img/common-mistakes-students-make-with-money-768x432.png">
+                    <div class="card-body">
+                        <h5>Common Mistakes Students Make With Money</h5>
+                    </div>
+                </div>
+                <div class="card bg-white recent">
+                    <img class="card-img-top" alt="" src="img/key-apps-2-768x432.png">
+                    <div class="card-body">
+                        <h5>Awesome Apps Every College Students Needs</h5>
+                    </div>
+                </div>
+                <div class="card bg-white recent">
+                    <img class="card-img-top" alt="" src="img/8-Proven-Tips-768x432.png">
+                    <div class="card-body">
+                        <h5>8 Proven Tips to Ace College Move-In Day </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="line w-100"></div>
+        <div class="buttons ">
+            <h3>EXPLORE MORE TOPICS</h3>
+            <div class="row">
+                <a href="#" class="btn topics col-sm">General(115)</a>
+                <a href="#" class="btn topics col-sm">News(64)</a>
+                <a href="#" class="btn topics col-sm">Vendors(33)</a>
+                <a href="#" class="btn topics col-sm">College(18)</a>
+                <a href="#" class="btn topics col-sm">Maintenence(18)</a>
+                <a href="#" class="btn topics col-sm">Mobile(16)</a>
+                <a href="#" class="btn topics col-sm">Podcast(13)</a>
+                <a href="#" class="btn topics col-sm">Media(12)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- buy-section -->
+    <div class="buy-section ">
+        <div class="container">
+            <div class="row">
+                <div class="pic col-md-5">
+                    <img src="img/3.jpg" alt="">
+                </div>
+                <div class="text-left col-md-7">
+                    <h4>While you're here...</h4>
+                    <h3>Did you know Bookscouter also helps you buy textbook?</h3>
+                    <p>Search our BUY section to compare textbook prices from more than 20 sellers. Once you’ve found
+                        the lowest price, you’ll be able to purchase the textbooks for the most affordable price.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sell-section -->
+    <div class="sell-section align-items-left">
+        <div class="container">
+            <h3>Why should you sell textbooks using BookScouter?</h3>
+            <p>We pride ourselves in being the world's largest textbook buyback price comparison tool. In addition <br>
+                to
+                helping you get rid of your old textbooks, we also offer:</p>
+
+            <div class="row card-section">
+                <div class="card align-items-center sell-card col-md first-card">
+                    <img src="img/code.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Best Price Recommendations</h3>
+                        <p>With one simple search we connect you to various companies buying used textbooks online. By
+                            comparing textbook buyback prices, we ensure you receive the best prices for your textbooks.
+                            Shipping is free and you're often paid the same day your book is received.</p>
+                    </div>
+                </div>
+                <div class="card align-items-center sell-card col-md">
+                    <img src="img/design.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Vendor Ratings & Reviews</h3>
+                        <p>After you've searched your ISBN, we display a list of companies with offers for your book.
+                            BookScouter users can rate and review each vendor with our feedback system. We display this
+                            rating next to each vendor so you can sell your books with confidence.</p>
+                    </div>
+                </div>
+                <div class="card align-items-center sell-card col-md last-card">
+                    <img src="img/launch.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Other Buyback Resources</h3>
+                        <p>Have questions about selling books online? Can't find the ISBN? Will your book be accepted in
+                            its current condition? Is your book counterfeit? We have many tips available whether this is
+                            your first time selling books, or if you have your own book buying business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="left-footer col-md-6 text-align-left">
+                    <div class="footer-logo">
+                        <img src="img/logo-white.png" alt="">
+                    </div>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+                <div class="right-footer col-md-6 ">
+                    <div class="links">
+                        <a href="#">faq</a>
+                        <a href="#">press</a>
+                        <a href="#">affiliates</a>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright &copy;2007-2020 BookScouter, LLC</p>
+                    </div>
+                    <div class="privacy">
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <!-- bootstrap scripts files -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
