@@ -199,48 +199,7 @@ header {
     color: #FFF !important;
 }
 
-@media screen and (max-width:1200px) {
-    .title {
-        font-size: 40px;
-    }
 
-    .title-search {
-        margin: 10% 0 auto 40%;
-    }
-}
-
-@media screen and (max-width:992px) {
-    .sell-card {
-        p {
-            font-size: 14px !important;
-        }
-    }
-
-    .title {
-        font-size: 30px;
-    }
-
-    .title-search {
-        margin: 10% 0 auto 20%;
-    }
-
-    .navbar {
-        font-size: 14px;
-        flex-direction: column;
-    }
-
-    .btn-custom {
-        font-size: 10px;
-    }
-
-    .fas.fa-user-circle {
-        font-size: 20px;
-    }
-
-    .login {
-        font-size: 12px;
-    }
-}
 
 .src {
     position: relative;
@@ -471,130 +430,6 @@ header {
 
 
 
-@media screen and (max-width:768px) {
-    .recently {
-        text-align: center;
-
-        .card-1 {
-            margin-bottom: 10px !important;
-            width: 60%;
-
-            .isbn {
-                h5 {
-                    font-size: 16px !important;
-                }
-            }
-
-            .price {
-                h5 {
-                    font-size: 35px !important;
-                    margin-top: 0;
-                }
-            }
-
-        }
-
-        .recent-search {
-            h3 {
-                font-size: 18px !important;
-                font-weight: 700 !important;
-            }
-        }
-
-        .btn-1 {
-            padding-top: 5px !important;
-            padding-bottom: 5px !important;
-        }
-
-        .btn-2 {
-            padding-top: 5px !important;
-            padding-bottom: 5px !important;
-        }
-    }
-}
-
-@media screen and (max-width:992px) {
-
-    .title-search {
-        display: none;
-    }
-
-    header {
-        height: 80vh;
-    }
-
-    .services {
-        display: none;
-    }
-
-    .search-box {
-        display: block;
-    }
-
-    .big-btn {
-        display: block;
-    }
-
-    .btn-box {
-        display: flex;
-    }
-
-    .card-1 {
-        width: 70%;
-        margin-bottom: 20px;
-
-        .price {
-            h5 {
-                font-size: 40px !important;
-                margin-top: 30px;
-            }
-        }
-
-        .btn-1 {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-
-        .btn-2 {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-    }
-}
-
-@media screen and (max-width:1200px) {
-
-
-    .price {
-        h5 {
-            font-size: 30px !important;
-            margin-bottom: 30px !important;
-        }
-    }
-}
-
-@media screen and (max-width:540px) {
-
-    .app {
-
-        .row {
-            justify-content: center;
-
-
-            .content {
-                margin-left: 0;
-            }
-        }
-    }
-
-    .price {
-        h5 {
-            font-size: 30px !important;
-
-        }
-    }
-}
-
 .fixed {
     z-index: -999 !important;
     top: 0;
@@ -718,90 +553,8 @@ header {
     }
 }
 
-@media screen and (max-width:1200px) {
-    .informations {
-        h2 {
-            font-size: 32px;
-        }
-
-        .left {
-            p {
-                font-size: 20px;
-            }
-        }
-
-        .right {
-            ul {
-                font-size: 18px;
-            }
-        }
 
 
-    }
-}
-
-@media screen and (max-width:992px) {
-    .sell-card {
-        p {
-            font-size: 14px !important;
-        }
-    }
-
-    .informations {
-        h2 {
-            font-size: 29px;
-        }
-
-        .left {
-            p {
-                font-size: 18px;
-            }
-        }
-
-        .right {
-            ul {
-                font-size: 16px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width:768px) {
-
-    .recent {
-        h5 {
-            font-size: 15px !important;
-        }
-    }
-
-
-    .informations {
-        h2 {
-            font-size: 25px;
-        }
-
-        .left {
-            p {
-                font-size: 16px;
-            }
-        }
-
-        .right {
-            h4 {
-                font-size: 20px;
-            }
-
-            ul {
-                font-size: 16px;
-            }
-        }
-
-        .apply {
-            width: 100%;
-            margin-top: auto;
-        }
-    }
-}
 
 .recent {
     margin-left: 50px;
@@ -1016,7 +769,41 @@ footer {
     }
 }
 
+// responsive...................
 @media screen and (max-width:1200px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .title-search {
+        margin: 10% 0 auto 40%;
+    }
+
+    .price {
+        h5 {
+            font-size: 30px !important;
+            margin-bottom: 30px !important;
+        }
+    }
+
+    .informations {
+        h2 {
+            font-size: 32px;
+        }
+
+        .left {
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .right {
+            ul {
+                font-size: 18px;
+            }
+        }
+    }
+
     .sell-card {
         p {
             font-size: 16px !important;
@@ -1031,9 +818,210 @@ footer {
         }
     }
 
+    .title {
+        font-size: 30px;
+    }
+
+    .title-search {
+        margin: 10% 0 auto 20%;
+    }
+
+    .navbar {
+        font-size: 14px;
+        flex-direction: column;
+    }
+
+    .btn-custom {
+        font-size: 10px;
+    }
+
+    .fas.fa-user-circle {
+        font-size: 20px;
+    }
+
+    .login {
+        font-size: 12px;
+    }
+
+    .title-search {
+        display: none;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .services {
+        display: none;
+    }
+
+    .search-box {
+        display: block;
+    }
+
+    .big-btn {
+        display: block;
+    }
+
+    .btn-box {
+        display: flex;
+    }
+
+    .card-1 {
+        width: 70%;
+        margin-bottom: 20px;
+
+        .price {
+            h5 {
+                font-size: 40px !important;
+                margin-top: 30px;
+            }
+        }
+
+        .btn-1 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .btn-2 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .sell-card {
+        p {
+            font-size: 14px !important;
+        }
+    }
+
+    .informations {
+        h2 {
+            font-size: 29px;
+        }
+
+        .left {
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .right {
+            ul {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .sell-card {
+        p {
+            font-size: 14px !important;
+        }
+    }
+
     .text-left {
         p {
             font-size: 20px !important;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .recently {
+        text-align: center;
+
+        .card-1 {
+            margin-bottom: 10px !important;
+            width: 60%;
+
+            .isbn {
+                h5 {
+                    font-size: 16px !important;
+                }
+            }
+
+            .price {
+                h5 {
+                    font-size: 35px !important;
+                    margin-top: 0;
+                }
+            }
+
+        }
+
+        .recent-search {
+            h3 {
+                font-size: 18px !important;
+                font-weight: 700 !important;
+            }
+        }
+
+        .btn-1 {
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+        }
+
+        .btn-2 {
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+        }
+    }
+
+    .recent {
+        h5 {
+            font-size: 15px !important;
+        }
+    }
+
+
+    .informations {
+        h2 {
+            font-size: 25px;
+        }
+
+        .left {
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .right {
+            h4 {
+                font-size: 20px;
+            }
+
+            ul {
+                font-size: 16px;
+            }
+        }
+
+        .apply {
+            width: 100%;
+            margin-top: auto;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:540px) {
+
+    .app {
+
+        .row {
+            justify-content: center;
+
+
+            .content {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .price {
+        h5 {
+            font-size: 30px !important;
+
         }
     }
 }
